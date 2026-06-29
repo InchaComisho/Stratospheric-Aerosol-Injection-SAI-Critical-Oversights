@@ -120,6 +120,9 @@ This principle clearly distinguishes Cooling Credits from simple shading, albedo
 - 警告：成層圏エアロゾル注入（SAI）の重大な見落とし  
   https://note.com/inchacomusho/n/nead7cd9f47dc
 
+- なぜ一般人がSAIの重大な見落としを指摘しなければならないのか  
+  https://note.com/inchacomusho/n/n5e6768df7bd6
+
 ---
 
 ## Related Repositories
