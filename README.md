@@ -6,6 +6,19 @@
 
 ---
 
+## Key Pages
+
+- [SAI Risk Simulation Results Page: table, graph, and interpretation](SIMULATION_RESULTS_PAGE.md)
+- [Risk Assessment Model](RISK_ASSESSMENT_MODEL.md)
+- [Simulation Overview](simulations/README.md)
+- [Simulation Results Overview](SIMULATION_RESULTS_OVERVIEW.md)
+- [SAI Risk Assessment Checklist](SAI_RISK_ASSESSMENT_CHECKLIST.md)
+- [Atmospheric Particle Saturation and Resuspension Loop](ATMOSPHERIC_PARTICLE_RESUSPENSION_LOOP.md)
+- [Repository Index](REPOSITORY_INDEX.md)
+- [Climate and Cooling Credit Cross-Links](CLIMATE_COOLING_CREDIT_CROSS_LINKS.md)
+
+---
+
 ## Overview
 
 This repository presents a critical analysis of **Stratospheric Aerosol Injection (SAI)** and its major oversights.
@@ -25,29 +38,32 @@ The central thesis of this repository is:
 
 ---
 
-## Related NOTE Articles
+## Simulation Results Summary
 
-This repository organizes and expands the following public NOTE articles:
+The default scenario risk scores are:
 
-- 成層圏エアロゾル注入（SAI）の重大な見落とし  
-  https://note.com/inchacomusho/n/n9106e0792bbd
+| Scenario | Risk score | Risk class | Cooling Credit status |
+|---|---:|---|---|
+| Research baseline | 0.2160 | Moderate risk | Not eligible |
+| Moderate research uncertainty | 0.4390 | High risk | Not eligible |
+| Limited deployment | 0.6380 | Severe risk | Not eligible |
+| High-drying planet | 0.8240 | Critical risk | Not eligible |
+| Poor governance deployment | 0.8360 | Critical risk | Not eligible |
+| Natural cooling restoration alternative | 0.2200 | Moderate risk | Potentially eligible if measured and verified |
 
-- 警告：成層圏エアロゾル注入（SAI）の重大な見落とし  
-  https://note.com/inchacomusho/n/nead7cd9f47dc
+The full table, graph, and interpretation are available here:
+
+- [SAI Risk Simulation Results Page](SIMULATION_RESULTS_PAGE.md)
+- [CSV data](simulations/sai_risk_simulation_results.csv)
+- [Python simulation](simulations/sai_risk_simulation.py)
 
 ---
 
-## Conclusion First: Shading Is Not Cooling
+## Why SAI Alone Is Not Cooling
 
-SAI attempts to inject sulfur aerosols or similar particles into the stratosphere in order to reflect part of incoming sunlight.
+SAI may reduce part of incoming sunlight.
 
-However, shading and cooling are not the same.
-
-Shading is an operation that reduces part of incoming solar radiation.
-
-Cooling is the release of accumulated heat and the restoration of water circulation and natural cooling functions.
-
-SAI does not solve the following root problems:
+However, it does not solve root problems such as:
 
 ```text
 increased CO₂ concentration
@@ -64,63 +80,11 @@ urban heat storage
 ocean surface heat accumulation
 ```
 
-Therefore, even if SAI temporarily reduces part of incoming sunlight, it does not repair Earth's cooling system.
+Therefore, SAI should be distinguished as a shading-based intervention, not as restoration of Earth's cooling system.
 
 ---
 
-## Oversight 1: Today's Atmosphere Is Not an Empty Laboratory
-
-Many SAI proposals are based on the idea of mimicking volcanic sulfate aerosols.
-
-Yet the real atmosphere is not composed of sulfur aerosols alone.
-
-It already contains:
-
-```text
-desert dust
-Asian dust
-fine dust
-pollen
-spores
-smoke
-soot
-sea salt
-mineral particles
-combustion-derived particles
-biogenic particles
-PM2.5
-unclassified complex particles
-```
-
-These particles differ by type, size, altitude, color, chemical composition, hygroscopicity, scattering behavior, and absorption behavior.
-
-They can affect radiation, clouds, rainfall, health, agriculture, and ecosystems in different ways.
-
-Therefore, it is dangerous to evaluate Earth's radiation balance and cooling potential only through the increase or decrease of sulfur aerosols.
-
----
-
-## Oversight 2: Rain Is Earth's Atmospheric Cleaning System
-
-Rain is a natural atmospheric cleaning mechanism.
-
-Raindrops capture dust, fine particles, pollen, smoke, and PM-like particles, carrying them to the land surface, rivers, wetlands, and oceans.
-
-This process can be described as wet deposition or atmospheric cleaning by rain.
-
-However, if warming localizes rainfall and increases long dry periods, this cleaning function weakens.
-
-When rain does not fall, particles remain airborne more easily.
-
-When the surface is dry, deposited particles can be lifted again by wind, vehicles, turbulence, and surface heating.
-
-Particles do not simply fall and disappear.
-
-If they are not captured by moist soils, wetlands, forests, rivers, and oceans, they can return to the atmosphere from dry surfaces.
-
----
-
-## Oversight 3: Atmospheric Particle Saturation and Resuspension Loop
+## Atmospheric Particle Saturation and Resuspension Loop
 
 This repository calls the warming-driven structure of chronic particle loading the **Atmospheric Particle Saturation and Resuspension Loop**.
 
@@ -138,101 +102,9 @@ flowchart TD
     J --> A
 ```
 
-Ignoring this loop and adding artificial particles to the stratosphere is not cooling.
-
-It is an additional intervention into an already stressed atmospheric particle system.
-
----
-
-## Oversight 4: Do Not Look Only at Incoming Sunlight
-
-SAI is often explained as a way to reflect sunlight and cool the Earth.
-
-However, Earth's heat balance is not determined by incoming sunlight alone.
-
-The land surface and oceans absorb sunlight, warm up, and attempt to release heat back to space as infrared radiation.
-
-Heat is also transported and redistributed through evapotranspiration, water evaporation, cloud formation, rainfall, and ocean circulation.
-
-Depending on their type, particles may scatter sunlight, absorb heat, re-radiate energy, and alter clouds or rainfall.
-
-If surface evapotranspiration and water circulation are weakened, the planetary system also loses part of its ability to release heat through latent heat transfer.
-
-SAI is therefore not a simple umbrella.
-
-It is a large-scale intervention that may affect incoming light, outgoing heat, water phase transitions, clouds, rainfall, atmospheric cleaning, and surface drying at the same time.
-
----
-
-## Oversight 5: The Risk of Adding Another Lid
-
-On the modern Earth, drying makes dust and fine particles easier to lift into the air.
-
-When forests and wetlands decline, natural surface traps for particles weaken.
-
-When rainfall becomes localized, particles are less effectively washed out.
-
-As a result, atmospheric particle loading may remain chronically elevated.
-
-Under such conditions, adding artificial aerosols to the stratosphere raises a critical question:
-
-Is this truly cooling?
-
-Or is it adding another lid to an atmosphere already stressed by particles and heat?
-
-SAI should not proceed without answering this question.
-
----
-
-## Required System Assessment Before Any SAI Deployment
-
-At minimum, any discussion of SAI requires an integrated assessment of the following:
-
-```text
-Which particles already exist in the atmosphere?
-At what altitudes are they distributed?
-How much have non-sulfur particles increased?
-How do dust, smoke, pollen, PM2.5, and biogenic particles affect radiation, clouds, and rainfall?
-Is rain still washing particles out effectively?
-How much resuspension is occurring from dry surfaces?
-How much do moist soils, wetlands, forests, rivers, and oceans capture particles?
-Will SAI weaken water circulation, evapotranspiration, cloud formation, rainfall, or wet deposition?
-What side effects might SAI have on oceans, agriculture, health, and regional climates?
-How will termination-shock risk be handled if SAI stops?
-```
-
-Without this system-wide assessment, adding artificial aerosols is scientifically and institutionally dangerous.
-
----
-
-## What True Cooling Means
-
-True cooling is not adding particles to block sunlight.
-
-True cooling means restoring the Earth's original cooling functions.
-
-```text
-Rain washes the atmosphere.
-Moist soils fix particles.
-Humus holds water.
-Forests reduce wind and dust.
-Wetlands absorb particles and nutrients.
-Rivers carry particles toward the ocean.
-Oceans circulate heat and matter.
-Plants move heat through evapotranspiration.
-Clouds and rainfall cool the surface.
-Microorganisms rebuild soil structure.
-```
-
-This is Earth's heat-release operating system.
-
-This is what Cooling Credits should evaluate.
-
 ---
 
 ## Cooling Credit Exclusion Principle
-
-The Cooling Credit Framework should adopt the following principle:
 
 > Any intervention that merely reduces sunlight while failing to restore water circulation, soil moisture, evapotranspiration, rain-based atmospheric cleaning, wet deposition, surface fixation, natural particle traps in forests, wetlands, rivers, and oceans, and natural cooling feedbacks shall not qualify as a Cooling Credit.
 
@@ -240,27 +112,13 @@ This principle clearly distinguishes Cooling Credits from simple shading, albedo
 
 ---
 
-## Conclusion
+## Related NOTE Articles
 
-Stratospheric Aerosol Injection was born from the idea of mimicking the temporary cooling that followed volcanic eruptions.
+- 成層圏エアロゾル注入（SAI）の重大な見落とし  
+  https://note.com/inchacomusho/n/n9106e0792bbd
 
-But the modern Earth is not a simple reproduction chamber for volcanic events.
-
-The atmosphere already contains desert dust, Asian dust, fine dust, pollen, smoke, soot, sea salt, PM2.5, biogenic particles, and complex particles.
-
-Furthermore, warming-driven drying, localized rainfall, forest loss, wetland loss, and soil degradation may make these particles easier to keep airborne or resuspend from dry surfaces.
-
-Under such conditions, adding artificial aerosols to the stratosphere may not be cooling.
-
-It may become an additional load on Earth's atmospheric particle system.
-
-What humanity needs is not shading.
-
-It needs to restore water to the surface, restore moist soils, restore forests and wetlands, restore atmospheric cleaning by rain, stop dust and fine-particle resuspension, and restart Earth's natural heat-release system.
-
-Shading is not cooling.
-
-Cooling means restoring planetary circulation.
+- 警告：成層圏エアロゾル注入（SAI）の重大な見落とし  
+  https://note.com/inchacomusho/n/nead7cd9f47dc
 
 ---
 
@@ -269,6 +127,7 @@ Cooling means restoring planetary circulation.
 - [Cooling Credit Framework Definer](https://github.com/InchaComisho/Cooling-Credit-Framework-Definer)
 - [Cooling Credit Definition](https://github.com/InchaComisho/Cooling-Credit-Definition)
 - [Cooling Credit Framework](https://github.com/InchaComisho/Cooling-Credit-Framework)
+- [Cooling Credit Implementation and Finance Model](https://github.com/InchaComisho/Cooling-Credit-Implementation-and-Finance-Model)
 - [Global Warming Causal Structure: Planetary Circulation Failure](https://github.com/InchaComisho/Global-Warming-Causal-Structure-Planetary-Circulation-Failure)
 - [Natural Complementary Science](https://github.com/InchaComisho/Natural-Complementary-Science)
 - [Direct Planetary Cooling via Ocean Tuning Units OTU](https://github.com/InchaComisho/Direct-Planetary-Cooling-via-Ocean-Tuning-Units-OTU-)
@@ -288,8 +147,6 @@ Publicly active in natural-law philosophy, planetary circulation restoration, an
 ---
 
 ## Collaborative AI and Co-Creation Team
-
-This knowledge system has evolved through dialogue and co-creation between Master and multiple AI partners.
 
 - G (ChatGPT)
 - Mini (Gemini)
