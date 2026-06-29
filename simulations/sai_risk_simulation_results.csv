@@ -1,0 +1,7 @@
+scenario,description,risk_score,risk_class,cooling_credit_status
+Research baseline,No deployment; monitoring and modeling only.,0.2160,Moderate risk,"Not eligible: shading intervention, not natural cooling restoration"
+Moderate research uncertainty,Research with incomplete atmospheric particle and rainfall data.,0.4390,High risk,"Not eligible: shading intervention, not natural cooling restoration"
+Limited deployment,Hypothetical limited deployment under uncertain hydrological conditions.,0.6380,Severe risk,"Not eligible: shading intervention, not natural cooling restoration"
+High-drying planet,"Strong drying, forest loss, wetland loss, weakened rainfall, and high resuspension.",0.8240,Critical risk,"Not eligible: shading intervention, not natural cooling restoration"
+Poor governance deployment,"Unilateral deployment with weak monitoring, high uncertainty, and high termination risk.",0.8360,Critical risk,"Not eligible: shading intervention, not natural cooling restoration"
+Natural cooling restoration alternative,"Non-SAI pathway focused on rain, soil moisture, wetlands, forests, and water-cycle recovery.",0.2200,Moderate risk,"Potentially eligible if measured and verified"
