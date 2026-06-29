@@ -4,22 +4,61 @@
 
 This repository documents the critical oversight that **stratospheric aerosol injection is a shading-based intervention, not a restoration of Earth's natural cooling system**.
 
-It connects atmospheric particles, wet deposition, rainfall, soil moisture, resuspension, planetary circulation failure, and the Cooling Credit exclusion principle.
+It connects atmospheric particles, wet deposition, rainfall, soil moisture, resuspension, planetary circulation failure, risk scoring, simulation, and the Cooling Credit exclusion principle.
 
 ---
 
-## Core Documents
-
-### Main README Files
+## Language Top Pages
 
 - [README_ja.md](README_ja.md)  
-  日本語版：成層圏エアロゾル注入（SAI）の重大な見落とし
+  日本語版トップ：成層圏エアロゾル注入（SAI）の重大な見落とし
 
 - [README.md](README.md)  
-  English: Major Oversights of Stratospheric Aerosol Injection (SAI)
+  English top: Major Oversights of Stratospheric Aerosol Injection (SAI)
 
 - [README_ar.md](README_ar.md)  
-  العربية: الجوانب الخطيرة المُغفلة في حقن الهباء الجوي في الستراتوسفير
+  العربية: الصفحة الرئيسية للجوانب الخطيرة المُغفلة في SAI
+
+---
+
+## Simulation Results Pages
+
+These pages contain the simulation table, Mermaid graph, risk-class thresholds, interpretation, and data links.
+
+- [SAIリスクシミュレーション結果ページ](SIMULATION_RESULTS_PAGE_ja.md)
+- [SAI Risk Simulation Results Page](SIMULATION_RESULTS_PAGE.md)
+- [صفحة نتائج محاكاة مخاطر SAI](SIMULATION_RESULTS_PAGE_ar.md)
+
+---
+
+## Risk Assessment Model
+
+- [RISK_ASSESSMENT_MODEL_ja.md](RISK_ASSESSMENT_MODEL_ja.md)  
+  日本語版：SAIリスク評価モデル
+
+- [RISK_ASSESSMENT_MODEL.md](RISK_ASSESSMENT_MODEL.md)  
+  English: SAI Risk Assessment Model
+
+- [RISK_ASSESSMENT_MODEL_ar.md](RISK_ASSESSMENT_MODEL_ar.md)  
+  العربية: نموذج تقييم مخاطر SAI
+
+---
+
+## Simulation Overview
+
+- [simulations/README_ja.md](simulations/README_ja.md)
+- [simulations/README.md](simulations/README.md)
+- [simulations/README_ar.md](simulations/README_ar.md)
+- [simulations/sai_risk_simulation.py](simulations/sai_risk_simulation.py)
+- [simulations/sai_risk_simulation_results.csv](simulations/sai_risk_simulation_results.csv)
+
+---
+
+## Simulation Results Overview
+
+- [SIMULATION_RESULTS_OVERVIEW_ja.md](SIMULATION_RESULTS_OVERVIEW_ja.md)
+- [SIMULATION_RESULTS_OVERVIEW.md](SIMULATION_RESULTS_OVERVIEW.md)
+- [SIMULATION_RESULTS_OVERVIEW_ar.md](SIMULATION_RESULTS_OVERVIEW_ar.md)
 
 ---
 
