@@ -1,5 +1,11 @@
 # Simulation Results Overview
 
+[← Repository Top](README.md) | [日本語](SIMULATION_RESULTS_OVERVIEW_ja.md) | [العربية](SIMULATION_RESULTS_OVERVIEW_ar.md)
+
+Related pages: [Results Page](SIMULATION_RESULTS_PAGE.md) | [Simulation Overview](simulations/README.md) | [Python Simulation](simulations/sai_risk_simulation.py) | [CSV Data](simulations/sai_risk_simulation_results.csv)
+
+---
+
 ## Reading the SAI Risk Simulation Output
 
 This document explains how to interpret the simplified SAI risk simulation model in this repository.
@@ -167,6 +173,14 @@ Shading is not cooling.
 Cooling means restoring planetary circulation.
 
 SAI risk should therefore be evaluated not only by possible radiative forcing effects, but also by whether it damages or fails to restore water phase-transition circulation, atmospheric circulation, ocean circulation, and food / organic matter circulation.
+
+---
+
+## Back
+
+- [Repository Top](README.md)
+- [Results Page](SIMULATION_RESULTS_PAGE.md)
+- [Simulation Overview](simulations/README.md)
 
 ---
 
