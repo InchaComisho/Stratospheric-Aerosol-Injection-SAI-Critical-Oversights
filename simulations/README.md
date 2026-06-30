@@ -1,5 +1,11 @@
 # Simulations
 
+[← Repository Top](../README.md) | [日本語](README_ja.md) | [العربية](README_ar.md)
+
+Related pages: [Results Overview](../SIMULATION_RESULTS_OVERVIEW.md) | [Results Page](../SIMULATION_RESULTS_PAGE.md) | [Python Simulation](sai_risk_simulation.py) | [CSV Data](sai_risk_simulation_results.csv)
+
+---
+
 ## SAI Risk Scoring and Conceptual Scenario Simulation
 
 This directory contains a simplified simulation model for evaluating the risk profile of Stratospheric Aerosol Injection (SAI) scenarios.
@@ -8,12 +14,30 @@ The simulation is not a climate model.
 
 It is a transparent scoring tool designed to show that SAI cannot be evaluated only by expected sunlight reduction or global mean temperature change.
 
+The current model remaps R1-R10 risk dimensions into four-circulation destruction scores.
+
+```text
+R1-R10
+    ↓
+Water phase-transition circulation damage
+Atmospheric circulation damage
+Ocean circulation damage
+Food and organic matter circulation damage
+    ↓
+Circulation coupling pressure
+    ↓
+Final four-circulation risk score
+```
+
 ---
 
 ## Files
 
 - [sai_risk_simulation.py](sai_risk_simulation.py)  
-  Python script for calculating weighted SAI risk scores across multiple scenarios.
+  Python script for calculating four-circulation SAI risk scores across multiple scenarios.
+
+- [sai_risk_simulation_results.csv](sai_risk_simulation_results.csv)  
+  CSV output for the default scenarios.
 
 ---
 
@@ -36,7 +60,7 @@ R10 Termination shock risk
 
 Each risk dimension is scored from 0.0 to 1.0.
 
-The weighted sum produces a total risk score between 0.0 and 1.0.
+The model then maps the ten dimensions into four planetary circulation-destruction categories and applies a conceptual coupling multiplier.
 
 ---
 
@@ -54,7 +78,7 @@ The weighted sum produces a total risk score between 0.0 and 1.0.
 
 ## Default Scenarios
 
-The script includes five scenarios:
+The script includes six scenarios:
 
 ```text
 Research baseline
@@ -62,6 +86,7 @@ Moderate research uncertainty
 Limited deployment
 High-drying planet
 Poor governance deployment
+Natural cooling restoration alternative
 ```
 
 These scenarios are illustrative and should be replaced with real data or expert-assessed parameters if used for serious research discussion.
@@ -110,6 +135,13 @@ Shading intervention, not Cooling Credit eligible
 
 > Shading is not cooling.  
 > Cooling means restoring planetary circulation.
+
+---
+
+## Back
+
+- [Repository Top](../README.md)
+- [Simulation Results Overview](../SIMULATION_RESULTS_OVERVIEW.md)
 
 ---
 
