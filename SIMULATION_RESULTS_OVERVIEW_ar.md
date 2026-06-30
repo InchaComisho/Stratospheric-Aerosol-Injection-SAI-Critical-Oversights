@@ -1,5 +1,11 @@
 # نظرة عامة على نتائج المحاكاة
 
+[← الصفحة الرئيسية للمستودع](README_ar.md) | [日本語](SIMULATION_RESULTS_OVERVIEW_ja.md) | [English](SIMULATION_RESULTS_OVERVIEW.md)
+
+صفحات مرتبطة: [صفحة النتائج](SIMULATION_RESULTS_PAGE_ar.md) | [نظرة عامة على المحاكاة](simulations/README_ar.md) | [سكربت Python](simulations/sai_risk_simulation.py) | [بيانات CSV](simulations/sai_risk_simulation_results.csv)
+
+---
+
 ## كيفية قراءة مخرجات محاكاة مخاطر SAI
 
 يشرح هذا المستند كيفية قراءة نتائج محاكاة مخاطر حقن الهباء الجوي في الستراتوسفير (SAI).
@@ -96,6 +102,14 @@ R1-R10
 التبريد يعني استعادة الدورة الكوكبية.
 
 ينبغي تقييم مخاطر SAI ليس فقط من خلال تأثير عكس الإشعاع، بل من خلال احتمال إضرارها بالدورانات الأربعة أو فشلها في استعادتها.
+
+---
+
+## العودة
+
+- [الصفحة الرئيسية للمستودع](README_ar.md)
+- [صفحة النتائج](SIMULATION_RESULTS_PAGE_ar.md)
+- [نظرة عامة على المحاكاة](simulations/README_ar.md)
 
 ---
 
