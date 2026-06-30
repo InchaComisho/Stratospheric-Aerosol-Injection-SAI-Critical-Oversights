@@ -1,5 +1,11 @@
 # المحاكاة
 
+[← الصفحة الرئيسية للمستودع](../README_ar.md) | [日本語](README_ja.md) | [English](README.md)
+
+صفحات مرتبطة: [نظرة عامة على النتائج](../SIMULATION_RESULTS_OVERVIEW_ar.md) | [صفحة النتائج](../SIMULATION_RESULTS_PAGE_ar.md) | [سكربت Python](sai_risk_simulation.py) | [بيانات CSV](sai_risk_simulation_results.csv)
+
+---
+
 ## تسجيل مخاطر SAI ومقارنة السيناريوهات المفاهيمية
 
 يحتوي هذا الدليل على نموذج محاكاة مبسط لمقارنة ملفات المخاطر في سيناريوهات حقن الهباء الجوي في الستراتوسفير (SAI).
@@ -8,12 +14,27 @@
 
 إنه أداة تسجيل شفافة لتوضيح أن SAI لا ينبغي تقييمه فقط من خلال تقليل ضوء الشمس أو انخفاض متوسط درجة الحرارة العالمية.
 
+يعيد النموذج الحالي ربط محاور R1-R10 بدرجات تضرر الدورانات الأربعة.
+
+```text
+R1-R10
+    ↓
+تضرر دوران التحول الطوري للماء
+تضرر دوران الغلاف الجوي
+تضرر دوران المحيطات
+تضرر دوران الغذاء والمادة العضوية
+    ↓
+ضغط الترابط بين الدورانات
+    ↓
+درجة الخطر النهائية للدورانات الأربعة
+```
+
 ---
 
 ## الملفات
 
 - [sai_risk_simulation.py](sai_risk_simulation.py)  
-  سكربت Python يحسب درجات المخاطر المرجحة لعدة سيناريوهات SAI.
+  سكربت Python يحسب درجات مخاطر SAI وفق نموذج الدورانات الأربعة.
 
 - [sai_risk_simulation_results.csv](sai_risk_simulation_results.csv)  
   ملف CSV يحتوي على نتائج السيناريوهات الافتراضية.
@@ -60,6 +81,7 @@ sai_risk_simulation_results.csv
 - [SAIリスクシミュレーション結果ページ](../SIMULATION_RESULTS_PAGE_ja.md)
 - [SAI Risk Simulation Results Page](../SIMULATION_RESULTS_PAGE.md)
 - [صفحة نتائج محاكاة مخاطر SAI](../SIMULATION_RESULTS_PAGE_ar.md)
+- [نظرة عامة على نتائج المحاكاة](../SIMULATION_RESULTS_OVERVIEW_ar.md)
 
 ---
 
@@ -67,6 +89,13 @@ sai_risk_simulation_results.csv
 
 > الحجب ليس تبريدًا.  
 > التبريد يعني استعادة الدورة الكوكبية.
+
+---
+
+## العودة
+
+- [الصفحة الرئيسية للمستودع](../README_ar.md)
+- [نظرة عامة على نتائج المحاكاة](../SIMULATION_RESULTS_OVERVIEW_ar.md)
 
 ---
 
