@@ -6,7 +6,7 @@ This document explains how to interpret the simplified SAI risk simulation model
 
 The simulation does not predict the real climate.
 
-It provides a transparent conceptual framework for comparing risk profiles across scenarios.
+It provides a transparent conceptual framework for comparing risk profiles across scenarios, now remapped through a four-circulation destruction model.
 
 ---
 
@@ -29,11 +29,38 @@ R10 Termination shock risk
 
 Each category is scored between 0.0 and 1.0.
 
-A weighted sum produces a total risk score.
+The model now performs two steps:
+
+```text
+R1-R10
+    ↓
+Four-circulation damage scores
+    ↓
+Coupling pressure and amplification multiplier
+    ↓
+Final four-circulation risk score
+```
 
 ---
 
-## 2. Default Risk Classes
+## 2. Four-Circulation Remapping
+
+The ten risk dimensions are remapped into four planetary circulation-destruction categories:
+
+```text
+1. Water phase-transition circulation damage
+2. Atmospheric circulation damage
+3. Ocean circulation damage
+4. Food and organic matter circulation damage
+```
+
+This matters because SAI risk is not only a matter of whether sunlight is reflected.
+
+If a measure damages water phase transition, cloud and rainfall patterns, atmospheric particle behavior, ocean circulation, soil fixation, or organic matter circulation, it may intensify planetary circulation failure even while producing an apparent cooling effect.
+
+---
+
+## 3. Default Risk Classes
 
 ```text
 0.00 - 0.20 = Low apparent risk
@@ -45,7 +72,20 @@ A weighted sum produces a total risk score.
 
 ---
 
-## 3. Scenario Interpretation
+## 4. Representative Results
+
+```text
+Research baseline: 0.3035 / Moderate risk
+Moderate research uncertainty: 0.7328 / Severe risk
+Limited SAI deployment: 1.0000 / Critical risk
+High-drying planet: 1.0000 / Critical risk
+Poor governance deployment: 1.0000 / Critical risk
+Natural cooling restoration alternative: 0.3079 / Moderate risk
+```
+
+---
+
+## 5. Scenario Interpretation
 
 ### Research Baseline
 
@@ -54,7 +94,7 @@ This scenario represents monitoring and modeling without deployment.
 Expected interpretation:
 
 ```text
-Risk class: Low to moderate
+Risk class: Moderate
 Cooling Credit status: Not eligible, because no natural cooling restoration occurs
 ```
 
@@ -69,11 +109,11 @@ This scenario represents research or policy discussion with incomplete atmospher
 Expected interpretation:
 
 ```text
-Risk class: Moderate to high
-Main warning: knowledge gaps are already significant
+Risk class: Severe
+Main warning: knowledge gaps become amplified when mapped to circulation damage
 ```
 
-This scenario highlights the need for atmospheric particle inventory, rainfall cleaning assessment, and surface fixation analysis.
+This scenario highlights the need for atmospheric particle inventory, rainfall cleaning assessment, surface fixation analysis, and four-circulation impact mapping.
 
 ---
 
@@ -84,8 +124,8 @@ This scenario represents hypothetical limited SAI deployment.
 Expected interpretation:
 
 ```text
-Risk class: High to severe
-Main warning: even limited deployment can carry hydrological, particle, governance, and termination risks
+Risk class: Critical
+Main warning: even limited deployment can trigger coupled hydrological, atmospheric, oceanic, governance, and termination risks
 ```
 
 Limited deployment should not be treated as low risk simply because the injected quantity is smaller.
@@ -99,8 +139,8 @@ This scenario represents a world with strong warming, dry soils, forest loss, we
 Expected interpretation:
 
 ```text
-Risk class: Severe
-Main warning: adding aerosols to an already particle-loaded and drying atmosphere may increase systemic risk
+Risk class: Critical
+Main warning: adding aerosols to an already particle-loaded and drying atmosphere may intensify systemic circulation failure
 ```
 
 This is the scenario most closely related to the Atmospheric Particle Saturation and Resuspension Loop.
@@ -114,154 +154,19 @@ This scenario represents unilateral or weakly governed deployment.
 Expected interpretation:
 
 ```text
-Risk class: Severe to critical
-Main warning: governance and termination shock may dominate the risk profile
-```
-
-A globally active intervention cannot be treated as a narrow technical project.
-
----
-
-### Natural Cooling Restoration Alternative
-
-This scenario represents non-SAI restoration of rain, soil moisture, forests, wetlands, rivers, oceans, and water-cycle feedbacks.
-
-Expected interpretation:
-
-```text
-Risk class: Low to moderate
-Cooling Credit status: Potentially eligible if measured and verified
-```
-
-This scenario is included to show the difference between shading and restoration.
-
----
-
-## 4. Example Output
-
-A typical run may produce a table like this:
-
-```text
-Scenario                              Risk Class       Cooling Credit Status
-Research baseline                     Low/Moderate     Not eligible
-Moderate research uncertainty          Moderate/High    Not eligible
-Limited deployment                     High/Severe      Not eligible
-High-drying planet                     Severe           Not eligible
-Poor governance deployment             Severe/Critical  Not eligible
-Natural cooling restoration alternative Low/Moderate    Potentially eligible
-```
-
-Exact values depend on scenario parameters.
-
----
-
-## 5. Why This Matters
-
-A conventional SAI analysis may focus on:
-
-```text
-reduced incoming sunlight
-aerosol optical depth
-global mean temperature response
-```
-
-This risk model adds missing dimensions:
-
-```text
-existing particle load
-rain-cleaning capacity
-wet deposition
-surface fixation
-particle resuspension
-cloud and rainfall disruption
-outgoing heat interactions
-natural cooling feedback damage
-governance
-termination shock
-```
-
-The model therefore asks a different question:
-
-> Does SAI restore the Earth's cooling system, or does it merely shade a damaged system?
-
----
-
-## 6. Cooling Credit Interpretation
-
-The simulation includes a simplified Cooling Credit filter.
-
-If a scenario does not restore natural cooling feedbacks, it is classified as:
-
-```text
-Not eligible: shading intervention, not natural cooling restoration
-```
-
-This is important because a temperature signal alone is not enough.
-
-Cooling Credit requires restoration of measurable cooling functions such as:
-
-```text
-soil moisture
-evapotranspiration
-rainfall cleaning
-wet deposition
-surface particle fixation
-forest cooling
-wetland recovery
-ocean circulation
-water-cycle stability
-natural cooling feedbacks
+Risk class: Critical
+Main warning: governance and termination shock amplify already coupled circulation risks
 ```
 
 ---
 
-## 7. Limitations
+## 6. Core Interpretation
 
-This simulation is conceptual.
-
-It does not replace:
-
-```text
-global climate models
-regional climate models
-cloud microphysics models
-radiative transfer models
-atmospheric chemistry models
-health impact models
-agricultural impact models
-governance and legal assessments
-```
-
-Its purpose is to prevent SAI from being evaluated too narrowly.
-
----
-
-## 8. Recommended Use
-
-This model can be used as:
-
-```text
-a public explanation tool
-a policy checklist
-a scenario comparison framework
-a Cooling Credit exclusion test
-a preliminary risk-screening tool
-a teaching model for climate intervention risks
-```
-
-It should not be used to justify deployment.
-
----
-
-## 9. Core Conclusion
-
-A scenario that reduces sunlight but fails to restore planetary circulation should not be called cooling.
-
-SAI may be a shading intervention.
-
-But shading is not cooling.
+Shading is not cooling.
 
 Cooling means restoring planetary circulation.
+
+SAI risk should therefore be evaluated not only by possible radiative forcing effects, but also by whether it damages or fails to restore water phase-transition circulation, atmospheric circulation, ocean circulation, and food / organic matter circulation.
 
 ---
 
