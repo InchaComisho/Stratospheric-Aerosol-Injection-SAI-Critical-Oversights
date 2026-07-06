@@ -1,5 +1,7 @@
 # 成層圏エアロゾル注入（SAI）の重大な見落とし
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M6J122N2K2)
+
 ## すでに大気中に存在するエアロゾルを無視して、さらに粒子を撒いてよいのか
 
 [日本語](README_ja.md) | [English](README.md) | [العربية](README_ar.md)

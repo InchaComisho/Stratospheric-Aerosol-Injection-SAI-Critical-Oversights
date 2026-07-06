@@ -1,5 +1,7 @@
 # Major Oversights of Stratospheric Aerosol Injection (SAI)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M6J122N2K2)
+
 ## Should humanity add more particles without fully assessing the aerosols already present in the atmosphere?
 
 [日本語](README_ja.md) | [English](README.md) | [العربية](README_ar.md)
