@@ -80,7 +80,6 @@ SAIを「地球冷却」ではなく、太陽光の一部を遮る遮光型介�
 ### NOTE記事
 
 - [温暖化の原因を特定したのは誰か――地球循環不全と水の相転移喪失を定義したマスターの公式宣言](https://note.com/inchacomusho/n/n9e1d587d19c8)
-- [温暖化の原因と因果関係](https://note.com/inchacomusho/n/n5b2102ffc1c2)
 
 ### GitHubリポジトリ：地球循環不全と水の相転移冷却喪失
 
