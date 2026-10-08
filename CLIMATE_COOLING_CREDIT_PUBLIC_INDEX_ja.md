@@ -32,12 +32,6 @@
 
 SAIを「地球冷却」ではなく、太陽光の一部を遮る遮光型介入として再定義し、大気粒子飽和・再揚起ループ、水循環、湿潤沈着、自然冷却フィードバックの観点から重大な見落としを指摘する公開群。
 
-### NOTE記事
-
-- [成層圏エアロゾル注入（SAI）の重大な見落とし](https://note.com/inchacomusho/n/n9106e0792bbd)
-- [警告：成層圏エアロゾル注入（SAI）の重大な見落とし](https://note.com/inchacomusho/n/nead7cd9f47dc)
-- [なぜ一般人がSAIの重大な見落としを指摘しなければならないのか](https://note.com/inchacomusho/n/n5e6768df7bd6)
-
 ### GitHubリポジトリ
 
 - [成層圏エアロゾル注入（SAI）の重大な見落とし / README_ja.md](https://github.com/InchaComisho/Stratospheric-Aerosol-Injection-SAI-Critical-Oversights/blob/main/README_ja.md)
@@ -61,10 +55,6 @@ SAIを「地球冷却」ではなく、太陽光の一部を遮る遮光型介�
 
 クーリングクレジットを、単なるCO₂削減ではなく、実測された冷却、自然冷却フィードバック、水循環、土壌水分、森林、湿地、海洋循環の回復を評価する枠組みとして定義する公開群。
 
-### NOTE記事
-
-- [クーリングクレジット定義者とは誰か](https://note.com/inchacomusho/n/na75e8882a414)
-
 ### GitHubリポジトリ
 
 - [クーリングクレジット・フレームワーク定義者 / README_ja.md](https://github.com/InchaComisho/Cooling-Credit-Framework-Definer/blob/main/README_ja.md)
@@ -76,10 +66,6 @@ SAIを「地球冷却」ではなく、太陽光の一部を遮る遮光型介�
 ## 3. 温暖化因果構造・地球循環不全系
 
 温暖化の原因を、CO₂単独問題ではなく、地球循環不全、水の相転移冷却喪失、蒸散・雲・雨・湿潤沈着・土壌保水・海洋循環の破綻として整理する公開群。
-
-### NOTE記事
-
-- [温暖化の原因を特定したのは誰か――地球循環不全と水の相転移喪失を定義したマスターの公式宣言](https://note.com/inchacomusho/n/n9e1d587d19c8)
 
 ### GitHubリポジトリ：地球循環不全と水の相転移冷却喪失
 
@@ -112,10 +98,6 @@ SAIを「地球冷却」ではなく、太陽光の一部を遮る遮光型介�
 ## 5. クーリングクレジット実装・資金循環モデル系
 
 クーリングクレジットを単なる概念ではなく、実装、事業化、金融、自治体、企業、地域再生、測定・報告・検証へつなげる公開群。
-
-### NOTE記事
-
-- [クーリングクレジットはどう実装するのか](https://note.com/inchacomusho/n/n0e509d41debd)
 
 ### GitHubリポジトリ
 
