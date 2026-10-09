@@ -2,7 +2,7 @@
 
 ## 概念モデルによるリスク評価表とグラフ
 
-[日本語](SIMULATION_RESULTS_PAGE_ja.md) | [English](SIMULATION_RESULTS_PAGE.md) | [العربية](SIMULATION_RESULTS_PAGE_ar.md)
+[日本語](SIMULATION_RESULTS_PAGE_ja.md) | [English](SIMULATION_RESULTS_PAGE_ja.md) | [العربية](SIMULATION_RESULTS_PAGE_ar.md)
 
 トップへ戻る：[README_ja.md](README_ja.md)
 

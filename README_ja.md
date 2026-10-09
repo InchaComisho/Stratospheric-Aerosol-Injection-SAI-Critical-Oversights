@@ -4,7 +4,7 @@
 
 ## すでに大気中に存在するエアロゾルを無視して、さらに粒子を撒いてよいのか
 
-[日本語](README_ja.md) | [English](README.md) | [العربية](README_ar.md)
+[日本語](README_ja.md) | [English](README_ja.md) | [العربية](README_ar.md)
 
 ---
 
@@ -14,9 +14,9 @@
 - [リスク評価モデル](RISK_ASSESSMENT_MODEL_ja.md)
 - [シミュレーション概要](simulations/README_ja.md)
 - [シミュレーション結果概要](SIMULATION_RESULTS_OVERVIEW_ja.md)
-- [SAI実施前リスク評価チェックリスト](SAI_RISK_ASSESSMENT_CHECKLIST.md)
-- [大気粒子飽和・再揚起ループ](ATMOSPHERIC_PARTICLE_RESUSPENSION_LOOP.md)
-- [リポジトリ索引](REPOSITORY_INDEX.md)
+- [SAI実施前リスク評価チェックリスト](SAI_RISK_ASSESSMENT_CHECKLIST_ja.md)
+- [大気粒子飽和・再揚起ループ](ATMOSPHERIC_PARTICLE_RESUSPENSION_LOOP_ja.md)
+- [リポジトリ索引](REPOSITORY_INDEX_ja.md)
 - [温暖化系・クーリングクレジット系 相互リンク](CLIMATE_COOLING_CREDIT_CROSS_LINKS.md)
 
 ---

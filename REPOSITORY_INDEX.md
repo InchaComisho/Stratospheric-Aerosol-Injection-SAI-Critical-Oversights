@@ -1,5 +1,7 @@
 # Repository Index
 
+[日本語版はこちら / Japanese version](REPOSITORY_INDEX_ja.md)
+
 ## Major Oversights of Stratospheric Aerosol Injection (SAI)
 
 This repository documents the critical oversight that **stratospheric aerosol injection is a shading-based intervention, not a restoration of Earth's natural cooling system**.

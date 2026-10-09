@@ -1,5 +1,7 @@
 # Atmospheric Particle Saturation and Resuspension Loop
 
+[日本語版はこちら / Japanese version](ATMOSPHERIC_PARTICLE_RESUSPENSION_LOOP_ja.md)
+
 ## A Technical Note on Aerosols, Dry Surfaces, Rainfall, and Natural Cooling Feedbacks
 
 This document defines the **Atmospheric Particle Saturation and Resuspension Loop** as a key overlooked mechanism in discussions of Stratospheric Aerosol Injection (SAI).

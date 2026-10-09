@@ -41,13 +41,13 @@ SAIを「地球冷却」ではなく、太陽光の一部を遮る遮光型介�
 ### 関連技術ページ
 
 - [SAIリスクシミュレーション結果ページ](SIMULATION_RESULTS_PAGE_ja.md)
-- [SAI Risk Simulation Results Page](SIMULATION_RESULTS_PAGE.md)
+- [SAI Risk Simulation Results Page](SIMULATION_RESULTS_PAGE_ja.md)
 - [صفحة نتائج محاكاة مخاطر SAI](SIMULATION_RESULTS_PAGE_ar.md)
 - [SAIリスク評価モデル](RISK_ASSESSMENT_MODEL_ja.md)
-- [SAI Risk Assessment Model](RISK_ASSESSMENT_MODEL.md)
+- [SAI Risk Assessment Model](RISK_ASSESSMENT_MODEL_ja.md)
 - [نموذج تقييم مخاطر SAI](RISK_ASSESSMENT_MODEL_ar.md)
-- [大気粒子飽和・再揚起ループ](ATMOSPHERIC_PARTICLE_RESUSPENSION_LOOP.md)
-- [SAI実施前リスク評価チェックリスト](SAI_RISK_ASSESSMENT_CHECKLIST.md)
+- [大気粒子飽和・再揚起ループ](ATMOSPHERIC_PARTICLE_RESUSPENSION_LOOP_ja.md)
+- [SAI実施前リスク評価チェックリスト](SAI_RISK_ASSESSMENT_CHECKLIST_ja.md)
 
 ---
 

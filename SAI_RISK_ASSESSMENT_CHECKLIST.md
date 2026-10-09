@@ -1,5 +1,7 @@
 # SAI Risk Assessment Checklist
 
+[日本語版はこちら / Japanese version](SAI_RISK_ASSESSMENT_CHECKLIST_ja.md)
+
 ## System-Level Questions Before Any Stratospheric Aerosol Injection Deployment
 
 This checklist is designed to prevent Stratospheric Aerosol Injection (SAI) from being evaluated only as a sunlight-reflection technique.

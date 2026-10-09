@@ -1,6 +1,6 @@
 # シミュレーション結果概要
 
-[← リポジトリトップ](README_ja.md) | [English](SIMULATION_RESULTS_OVERVIEW.md) | [العربية](SIMULATION_RESULTS_OVERVIEW_ar.md)
+[← リポジトリトップ](README_ja.md) | [English](SIMULATION_RESULTS_OVERVIEW_ja.md) | [العربية](SIMULATION_RESULTS_OVERVIEW_ar.md)
 
 関連ページ: [結果ページ](SIMULATION_RESULTS_PAGE_ja.md) | [シミュレーション概要](simulations/README_ja.md) | [Pythonシミュレーション](simulations/sai_risk_simulation.py) | [CSVデータ](simulations/sai_risk_simulation_results.csv)
 
@@ -21,7 +21,7 @@
 表とグラフを含む統合ページはこちら。
 
 - [SAIリスクシミュレーション結果ページ](SIMULATION_RESULTS_PAGE_ja.md)
-- [SAI Risk Simulation Results Page](SIMULATION_RESULTS_PAGE.md)
+- [SAI Risk Simulation Results Page](SIMULATION_RESULTS_PAGE_ja.md)
 - [صفحة نتائج محاكاة مخاطر SAI](SIMULATION_RESULTS_PAGE_ar.md)
 
 ---

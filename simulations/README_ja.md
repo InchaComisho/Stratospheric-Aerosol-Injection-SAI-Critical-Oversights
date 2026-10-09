@@ -1,6 +1,6 @@
 # シミュレーション
 
-[← リポジトリトップ](../README_ja.md) | [English](README.md) | [العربية](README_ar.md)
+[← リポジトリトップ](../README_ja.md) | [English](README_ja.md) | [العربية](README_ar.md)
 
 関連ページ: [結果概要](../SIMULATION_RESULTS_OVERVIEW_ja.md) | [結果ページ](../SIMULATION_RESULTS_PAGE_ja.md) | [Pythonシミュレーション](sai_risk_simulation.py) | [CSVデータ](sai_risk_simulation_results.csv)
 
