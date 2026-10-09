@@ -49,7 +49,7 @@
 ## シミュレーションの概要
 
 - [simulations/README_ja.md](simulations/README_ja.md)
-- [simulations/README.md](simulations/README.md)
+- [simulations/README.md](simulations/README_ja.md)
 - [simulations/README_ar.md](simulations/README_ar.md)
 - [simulations/sai_risk_simulation.py](simulations/sai_risk_simulation.py)
 - [simulations/sai_risk_simulation_results.csv](simulations/sai_risk_simulation_results.csv)

@@ -4,7 +4,7 @@
 
 ## すでに大気中に存在するエアロゾルを無視して、さらに粒子を撒いてよいのか
 
-[日本語](README_ja.md) | [English](README_ja.md) | [العربية](README_ar.md)
+[日本語](README_ja.md) | [English](README.md) | [العربية](README_ar.md)
 
 ---
 
