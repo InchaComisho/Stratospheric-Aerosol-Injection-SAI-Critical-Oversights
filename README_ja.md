@@ -17,7 +17,7 @@
 - [SAI実施前リスク評価チェックリスト](SAI_RISK_ASSESSMENT_CHECKLIST_ja.md)
 - [大気粒子飽和・再揚起ループ](ATMOSPHERIC_PARTICLE_RESUSPENSION_LOOP_ja.md)
 - [リポジトリ索引](REPOSITORY_INDEX_ja.md)
-- [温暖化系・クーリングクレジット系 相互リンク](CLIMATE_COOLING_CREDIT_CROSS_LINKS.md)
+- [温暖化系・クーリングクレジット系 相互リンク](CLIMATE_COOLING_CREDIT_CROSS_LINKS_ja.md)
 
 ---
 
