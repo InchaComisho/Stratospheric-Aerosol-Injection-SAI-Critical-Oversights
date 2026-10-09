@@ -1,5 +1,7 @@
 # SAI Risk Assessment Model
 
+[日本語版はこちら / Japanese version](RISK_ASSESSMENT_MODEL_ja.md)
+
 ## A Scoring Framework for Stratospheric Aerosol Injection Risk Evaluation
 
 This document defines a simplified risk assessment model for Stratospheric Aerosol Injection (SAI).
